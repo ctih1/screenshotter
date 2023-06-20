@@ -33,6 +33,8 @@ def send():
         return int(response.status_code)
     return time.time() - st
 
+limit()
+
 while True:
     print(takess())
     print(compress())
